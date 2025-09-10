@@ -1,0 +1,77 @@
+{
+  "query": "arthralgia",
+  "exact_matches": [],
+  "semantic_matches": [
+    {
+      "NAMC_ID": 2649,
+      "NAMC_CODE": "SG-3.13",
+      "NAMC_term": "MUTRAGHATAPLIHAGULMODARASHTHILASVAROPAGHATARTANAM VAMANAVYAPADAH",
+      "NAMC _term_diacritical": "mūtrāghātaplīhagulmōdarāṣṭhīlāsvarōpaghātārtānāṁ vamanavyāpadaḥ",
+      "NAMC _term_DEVANAGARI": "मूत्राघातप्लीहगुल्मोदराष्ठीलास्वरोपघातार्तानां वमनव्यापदः",
+      "short_definition": "vamanavyāpat in mūtrāghāta , gulma , udara , asHTElA, svaropaghAta ",
+      "long_definition": "the disorder is characterized by gulmaḥ [palpable glandular enlargment in abdomen/ abdominal lump], udara [udara], asḥṭīlā [aṣṭhīlā/ hypertrophy of prostate gland], svarōpaghāta [supression of voice], tīvrataraśūlaprādurbhāvaḥ [colic pain of acute nature] ",
+      "ontology_branches": null,
+      "text": "NAMC_CODE: SG-3.13 ||| NAMC_term: MUTRAGHATAPLIHAGULMODARASHTHILASVAROPAGHATARTANAM VAMANAVYAPADAH ||| NAMC _term_diacritical: mūtrāghātaplīhagulmōdarāṣṭhīlāsvarōpaghātārtānāṁ vamanavyāpadaḥ ||| NAMC _term_DEVANAGARI: मूत्राघातप्लीहगुल्मोदराष्ठीलास्वरोपघातार्तानां वमनव्यापदः ||| short_definition: vamanavyāpat in mūtrāghāta , gulma , udara , asHTElA, svaropaghAta ||| long_definition: the disorder is characterized by gulmaḥ [palpable glandular enlargment in abdomen/ abdominal lump], udara [udara], asḥṭīlā [aṣṭhīlā/ hypertrophy of prostate gland], svarōpaghāta [supression of voice], tīvrataraśūlaprādurbhāvaḥ [colic pain of acute nature]",
+      "_code_col_": "NAMC_ID",
+      "_score": 0.49681252241134644,
+      "_row_index": 2567
+    },
+    {
+      "NAMC_ID": 1736,
+      "NAMC_CODE": "HE-3",
+      "NAMC_term": "PAKATYAYAH/SIRASANGAH",
+      "NAMC _term_diacritical": "pākātyayaḥ/sirāsaṅgaḥ",
+      "NAMC _term_DEVANAGARI": "पाकात्ययः/सिरासङ्गः",
+      "short_definition": "severe keratitis with hypopyon ",
+      "long_definition": "the disorder is characterized by sañcchādyatē śvētanibhēna sarvaṁ asitamaṇḍalam/kr̥ṣṇaṁ śuklarūpatāṁ nīyatē [whitish opacity], akṣikōpasamutthitaḥ [inflammation of eyes], tīvrarujā/atitīvrarujā [extremely painful], dhavalābhra upaliptābham [appearance as if covered with white clouds], niṣpāvārdhadalākr̥tiḥ [having shape similar to one half of niṣpāva], atitīvrarāgaḥ [excessive redness], atitīvradāhaḥ [severe burning sensation], atitīvraśvayathuḥ [excessive swelling] ",
+      "ontology_branches": null,
+      "text": "NAMC_CODE: HE-3 ||| NAMC_term: PAKATYAYAH/SIRASANGAH ||| NAMC _term_diacritical: pākātyayaḥ/sirāsaṅgaḥ ||| NAMC _term_DEVANAGARI: पाकात्ययः/सिरासङ्गः ||| short_definition: severe keratitis with hypopyon ||| long_definition: the disorder is characterized by sañcchādyatē śvētanibhēna sarvaṁ asitamaṇḍalam/kr̥ṣṇaṁ śuklarūpatāṁ nīyatē [whitish opacity], akṣikōpasamutthitaḥ [inflammation of eyes], tīvrarujā/atitīvrarujā [extremely painful], dhavalābhra upaliptābham [appearance as if covered with white clouds], niṣpāvārdhadalākr̥tiḥ [having shape similar to one half of niṣpāva], atitīvrarāgaḥ [excessive redness], atitīvradāhaḥ [severe burning sensation], atitīvraśvayathuḥ [excessive swelling]",
+      "_code_col_": "NAMC_ID",
+      "_score": 0.48066508769989014,
+      "_row_index": 1678
+    },
+    {
+      "NAMC_ID": 499,
+      "NAMC_CODE": "EA-4.8",
+      "NAMC_term": "SVASA-ARISHTAH",
+      "NAMC _term_diacritical": "śvāsa-ariṣṭaḥ",
+      "NAMC _term_DEVANAGARI": "श्वास-अरिष्टः",
+      "short_definition": "fatal signs of śvāsa ",
+      "long_definition": "the disorder is characterized by atisārō jvarō hikkā chardiḥ śūnāṇḍamēḍhratā [afflicted with diarrhoea, pyrexia, hiccup, vomiting, scrotal oedema], jvaraccharditr̥ṣṇātīsāraśōphinam [afflicted with pyrexia, vomiting, thirst, diarrhoea, oedema], yasya mūtraṁ purīṣaṁ ca grathitaṁ sampravartatē| nirūṣmaṇō jaṭhariṇaḥ śvasanō na sa jīvati| [one who is having diminution of agni and passes hard stools, urine will not survive] ",
+      "ontology_branches": null,
+      "text": "NAMC_CODE: EA-4.8 ||| NAMC_term: SVASA-ARISHTAH ||| NAMC _term_diacritical: śvāsa-ariṣṭaḥ ||| NAMC _term_DEVANAGARI: श्वास-अरिष्टः ||| short_definition: fatal signs of śvāsa ||| long_definition: the disorder is characterized by atisārō jvarō hikkā chardiḥ śūnāṇḍamēḍhratā [afflicted with diarrhoea, pyrexia, hiccup, vomiting, scrotal oedema], jvaraccharditr̥ṣṇātīsāraśōphinam [afflicted with pyrexia, vomiting, thirst, diarrhoea, oedema], yasya mūtraṁ purīṣaṁ ca grathitaṁ sampravartatē| nirūṣmaṇō jaṭhariṇaḥ śvasanō na sa jīvati| [one who is having diminution of agni and passes hard stools, urine will not survive]",
+      "_code_col_": "NAMC_ID",
+      "_score": 0.4795529842376709,
+      "_row_index": 501
+    },
+    {
+      "NAMC_ID": 1042,
+      "NAMC_CODE": "ED-16.9",
+      "NAMC_term": "UNMARGAGAMI-BAGANDARAH/SALYAJANYA-BAGANDARAH/KSHATAJA-BAGANDARAH",
+      "NAMC _term_diacritical": "unmārgagāmī-bhagandaraḥ/śalyajanya-bhagandaraḥ/kṣataja-bhagandaraḥ",
+      "NAMC _term_DEVANAGARI": "उन्मार्गगामी-भगन्दरः/शल्यजन्य-भगन्दरः/क्षतज-भगन्दरः",
+      "short_definition": "bhagandara due to trauma ",
+      "long_definition": "the disorder is characterized by pūyarudhirāvakīrṇamāṁsakōthaḥ [purtrifaction of muscle associated with pus and blood], jalapraklinnāyāṁ bhūmāviva kr̥mayaḥ saṁjāyantē [like, worms are generated in moist soil], kr̥mibhiḥ pārśvatō gudadāraṇam/ kr̥mayaḥ paritō gudaṁ khādantī [microorganisms damaging soft tissue of anal region], kr̥mikr̥tairmārgaiḥ vātamūtrapurīṣarētāṁsi abhinissaranti [gases,urine,stool,semen are passed through the tracts created by micro organisms.] ",
+      "ontology_branches": null,
+      "text": "NAMC_CODE: ED-16.9 ||| NAMC_term: UNMARGAGAMI-BAGANDARAH/SALYAJANYA-BAGANDARAH/KSHATAJA-BAGANDARAH ||| NAMC _term_diacritical: unmārgagāmī-bhagandaraḥ/śalyajanya-bhagandaraḥ/kṣataja-bhagandaraḥ ||| NAMC _term_DEVANAGARI: उन्मार्गगामी-भगन्दरः/शल्यजन्य-भगन्दरः/क्षतज-भगन्दरः ||| short_definition: bhagandara due to trauma ||| long_definition: the disorder is characterized by pūyarudhirāvakīrṇamāṁsakōthaḥ [purtrifaction of muscle associated with pus and blood], jalapraklinnāyāṁ bhūmāviva kr̥mayaḥ saṁjāyantē [like, worms are generated in moist soil], kr̥mibhiḥ pārśvatō gudadāraṇam/ kr̥mayaḥ paritō gudaṁ khādantī [microorganisms damaging soft tissue of anal region], kr̥mikr̥tairmārgaiḥ vātamūtrapurīṣarētāṁsi abhinissaranti [gases,urine,stool,semen are passed through the tracts created by micro organisms.]",
+      "_code_col_": "NAMC_ID",
+      "_score": 0.47916412353515625,
+      "_row_index": 1012
+    },
+    {
+      "NAMC_ID": 494,
+      "NAMC_CODE": "EA-4.5",
+      "NAMC_term": "TAMAKASVASAH",
+      "NAMC _term_diacritical": "tamakaśvāsaḥ",
+      "NAMC _term_DEVANAGARI": "तमकश्वासः",
+      "short_definition": "tamakaśvāsa /bronchial asthma ",
+      "long_definition": "the disorder is characterized by pīnasam [cold, catarrh], ghurghurakam/kaṇṭhaghurghurikānvitaḥ [making ghurghur sound], atīva-tīvravēgaṁ śvāsaḥ/tīvravēgaṁ śvāsam [severe increased respiratory rate/tachypnea], prāṇaprapīḍakam/prāṇōpatāpinam [life threatening], ativēgāt pratāmyati/pratāmyēt tasya vēgēna/tamakapīḍitaḥ [fainting due to tachypnea], kāsatē/sakāsaḥ/kāsam [cough], sannirudhyatē [motionless], kāsamānaśca pramōhaṁ muhurmuhuḥ gacchati [frequent fainting while coughing], ślēṣmaṇi amucyamānē tu bhr̥śaṁ bhavati duḥkhitaḥ [distressed as unable to spit out phlegm], saśāmyati kaphē hīnē [feels better with little spitting of phlegm], tasyaiva ca (ślēṣmaṇi) vimōkṣāntē muhūrtaṁ labhatē sukham / niṣṭhyūtāntē kṣaṇaṁ sukhī [feels better for a while due to spitting of phlegm], kaṇṭhaḥ uddhvaṁsatē [inflammation of throat (pharynx, larynx)], kr̥cchrācchaknōti bhāṣitum [hardly able to speak], nidrāṁ na labhatē [loss of sleep/insomnia], śayānaḥ śvāsapīḍitaḥ/kr̥cchrāt śayānaḥ śvasiti [difficulty in sleeping position/unable to sleep], pārśvē avagr̥hṇāti [hindering in respiration by sides of chest due to vāta], āsīnō labhatē saukhyam / niṣaṇṇaḥ svāsthyamr̥cchati [feels comfortable in sitting posture], uṣṇaṁ caiva abhinandati / uṣṇaṁ kāṅkṣati [desire for hot], ucchritākṣaḥ [bulging of eyes], lalāṭēna svidyataḥ [sweating on forehead], bhr̥śam artimān [sudden onset of pain], viśuṣkāsyaḥ [dryness of mouth], muhuḥ śvāsō muhuścaiva avadhamyatē [body moves along with respiration during attack.], mēghāmbuśītaprāgvātaiḥ ślēṣmalaiśca abhivardhatē/vivarddhatē [aggravation of attack due to clouds, rain, cold, wind coming from front and others which increase kapha], tr̥ṭ-prāyaḥ/tr̥ṣyatē/tr̥ṣam [thirst], svēda-prāyaḥ [perspiration], vamathu-prāyaḥ [vomiting], viśēṣāt durdinē tāmyēt [more distressed on bad weather day], ghōṣēṇa mahatā āviṣṭaḥ [associated with large sound], sakaphaḥ [with sputum/phlegm], annadviṭ [person having aversion towards food], aruciḥ [tastelessness], suptaḥ [numbness], svapataśca vivardhatē [increased on sleep], mōham [confusion/delirium], savēpathuḥ [tremor] ",
+      "ontology_branches": null,
+      "text": "NAMC_CODE: EA-4.5 ||| NAMC_term: TAMAKASVASAH ||| NAMC _term_diacritical: tamakaśvāsaḥ ||| NAMC _term_DEVANAGARI: तमकश्वासः ||| short_definition: tamakaśvāsa /bronchial asthma ||| long_definition: the disorder is characterized by pīnasam [cold, catarrh], ghurghurakam/kaṇṭhaghurghurikānvitaḥ [making ghurghur sound], atīva-tīvravēgaṁ śvāsaḥ/tīvravēgaṁ śvāsam [severe increased respiratory rate/tachypnea], prāṇaprapīḍakam/prāṇōpatāpinam [life threatening], ativēgāt pratāmyati/pratāmyēt tasya vēgēna/tamakapīḍitaḥ [fainting due to tachypnea], kāsatē/sakāsaḥ/kāsam [cough], sannirudhyatē [motionless], kāsamānaśca pramōhaṁ muhurmuhuḥ gacchati [frequent fainting while coughing], ślēṣmaṇi amucyamānē tu bhr̥śaṁ bhavati duḥkhitaḥ [distressed as unable to spit out phlegm], saśāmyati kaphē hīnē [feels better with little spitting of phlegm], tasyaiva ca (ślēṣmaṇi) vimōkṣāntē muhūrtaṁ labhatē sukham / niṣṭhyūtāntē kṣaṇaṁ sukhī [feels better for a while due to spitting of phlegm], kaṇṭhaḥ uddhvaṁsatē [inflammation of throat (pharynx, larynx)], kr̥cchrācchaknōti bhāṣitum [hardly able to speak], nidrāṁ na labhatē [loss of sleep/insomnia], śayānaḥ śvāsapīḍitaḥ/kr̥cchrāt śayānaḥ śvasiti [difficulty in sleeping position/unable to sleep], pārśvē avagr̥hṇāti [hindering in respiration by sides of chest due to vāta], āsīnō labhatē saukhyam / niṣaṇṇaḥ svāsthyamr̥cchati [feels comfortable in sitting posture], uṣṇaṁ caiva abhinandati / uṣṇaṁ kāṅkṣati [desire for hot], ucchritākṣaḥ [bulging of eyes], lalāṭēna svidyataḥ [sweating on forehead], bhr̥śam artimān [sudden onset of pain], viśuṣkāsyaḥ [dryness of mouth], muhuḥ śvāsō muhuścaiva avadhamyatē [body moves along with respiration during attack.], mēghāmbuśītaprāgvātaiḥ ślēṣmalaiśca abhivardhatē/vivarddhatē [aggravation of attack due to clouds, rain, cold, wind coming from front and others which increase kapha], tr̥ṭ-prāyaḥ/tr̥ṣyatē/tr̥ṣam [thirst], svēda-prāyaḥ [perspiration], vamathu-prāyaḥ [vomiting], viśēṣāt durdinē tāmyēt [more distressed on bad weather day], ghōṣēṇa mahatā āviṣṭaḥ [associated with large sound], sakaphaḥ [with sputum/phlegm], annadviṭ [person having aversion towards food], aruciḥ [tastelessness], suptaḥ [numbness], svapataśca vivardhatē [increased on sleep], mōham [confusion/delirium], savēpathuḥ [tremor]",
+      "_code_col_": "NAMC_ID",
+      "_score": 0.47705399990081787,
+      "_row_index": 496
+    }
+  ],
+  "model_informed_summary": "long_definition: the disorder is characterized by sañcchādyatē śvētanibhēna sarvaṁ asitamaṇḍalam/kr̥ṣṇaṁ śuklarūpatāṁ nīyatē [whitish opacity], akṣikōpasamutthitaḥ [inflammation of eyes], tīvrarujā/atitīvrarujā [extremely painful], dhavalābhra upaliptābham [appearance as if covered with white clouds], niṣpāvārdhadalākr̥tiḥ [having shape similar to one half of niṣpāva], atitīvrarāgaḥ [excessive redness], atitīvradāhaḥ [severe burning sensation], atitīvraśvayathuḥ [excessive swelling] NAMC_CODE: EA-4.8 long_definition: the disorder is characterized by atisārō jvarō hikkā chardiḥ śūnāṇḍamēḍhratā [afflicted with diarrhoea, pyrexia, hiccup, vomiting, scrotal oedema], jvaraccharditr̥ṣṇātīsāraśōphinam [afflicted with pyrexia, vomiting, thirst, diarrhoea, oedema], yasya mūtraṁ purīṣaṁ ca grathitaṁ sampravartatē| nirūṣmaṇō jaṭhariṇaḥ śvasanō na sa jīvati| [one who is having diminution of agni and passes hard stools, urine will not survive] NAMC_CODE: ED-16.9 long_definition: the disorder is characterized by pūyarudhirāvakīrṇamāṁsakōthaḥ [purtrifaction of muscle associated with pus and blood], jalapraklinnāyāṁ bhūmāviva kr̥mayaḥ saṁjāyantē [like, worms are generated in moist soil], kr̥mibhiḥ pārśvatō gudadāraṇam/ kr̥mayaḥ paritō gudaṁ khādantī [microorganisms damaging soft tissue of anal region], kr̥mikr̥tairmārgaiḥ vātamūtrapurīṣarētāṁsi abhinissaranti [gases,urine,stool,semen are passed through the tracts created by micro organisms.] NAMC_CODE: EA-4.5 long_definition: the disorder is characterized by pīnasam [cold, catarrh], ghurghurakam/kaṇṭhaghurghurikānvitaḥ [making ghurghur sound], atīva-tīvravēgaṁ śvāsaḥ/tīvravēgaṁ śvāsam [severe increased respiratory rate/tachypnea], prāṇaprapīḍakam/prāṇōpatāpinam [life threatening], ativēgāt pratāmyati/pratāmyēt tasya vēgēna/tamakapīḍitaḥ [fainting due to tachypnea], kāsatē/sakāsaḥ/kāsam [cough], sannirudhyatē [motionless], kāsamānaśca pramōhaṁ muhurmuhuḥ gacchati [frequent fainting while coughing], ślēṣmaṇi amucyamānē tu bhr̥śaṁ bhavati duḥkhitaḥ [distressed as unable to spit out phlegm], saśāmyati kaphē hīnē [feels better with little spitting of phlegm], tasyaiva ca (ślēṣmaṇi) vimōkṣāntē muhūrtaṁ labhatē sukham / niṣṭhyūtāntē kṣaṇaṁ sukhī [feels better for a while due to spitting of phlegm], kaṇṭhaḥ uddhvaṁsatē [inflammation of throat (pharynx, larynx)], kr̥cchrācchaknōti bhāṣitum [hardly able to speak], nidrāṁ na labhatē [loss of sleep/insomnia], śayānaḥ śvāsapīḍitaḥ/kr̥cchrāt śayānaḥ śvasiti [difficulty in sleeping position/unable to sleep], pārśvē avagr̥hṇāti [hindering in respiration by sides of chest due to vāta], āsīnō labhatē saukhyam / niṣaṇṇaḥ svāsthyamr̥cchati [feels comfortable in sitting posture], uṣṇaṁ caiva abhinandati / uṣṇaṁ kāṅkṣati [desire for hot], ucchritākṣaḥ [bulging of eyes], lalāṭēna svidyataḥ [sweating on forehead], bhr̥śam artimān [sudden onset of pain], viśuṣkāsyaḥ [dryness of mouth], muhuḥ śvāsō muhuścaiva avadhamyatē [body moves along with respiration during attack.], mēghāmbuśītaprāgvātaiḥ ślēṣmalaiśca abhivardhatē/vivarddhatē [aggravation of attack due to clouds, rain, cold, wind coming from front and others which increase kapha], tr̥ṭ-prāyaḥ/tr̥ṣyatē/tr̥ṣam [thirst], svēda-prāyaḥ [perspiration], vamathu-prāyaḥ [vomiting], viśēṣāt durdinē tāmyēt [more distressed on bad weather day], ghōṣēṇa mahatā āviṣṭaḥ [associated with large sound], sakaphaḥ [with sputum/phlegm], annadviṭ [person having aversion towards food], aruciḥ [tastelessness], suptaḥ [numbness], svapataśca vivardhatē [increased on sleep], mōham [confusion/delirium], savēpathuḥ [tremor]"
+}

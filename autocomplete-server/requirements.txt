@@ -1,0 +1,10 @@
+fastapi
+uvicorn[standard]
+pydantic
+numpy
+pandas
+scikit-learn
+joblib
+torch
+transformers
+pyarrow    # needed for pandas.read_parquet
