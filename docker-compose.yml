@@ -14,17 +14,3 @@ services:
     restart: always
     ports:
       - "3000:3000"
-
-  admin-client:
-    build: ./admin-client
-    container_name: admin-client
-    restart: always
-    ports:
-      - "3001:3000"  # map container’s 3000 to host 3001
-
-  user-client:
-    build: ./user-client
-    container_name: user-client
-    restart: always
-    ports:
-      - "3002:3000"  # map container’s 3000 to host 3002
