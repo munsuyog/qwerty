@@ -15,7 +15,7 @@ import { Button } from "@/components/ui/button";
 export default function NamasteCode() {
   const [concepts, setConcepts] = useState([]);
   const [page, setPage] = useState(1);
-  const pageSize = 20;
+  const pageSize = 500;
   const [loading, setLoading] = useState(false);
 
   // Step 1: Get token & fetch concepts

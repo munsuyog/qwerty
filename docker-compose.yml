@@ -1,0 +1,30 @@
+version: "3.9"
+
+services:
+  autocomplete-server:
+    build: ./autocomplete-server
+    container_name: autocomplete-server
+    restart: always
+    ports:
+      - "8000:8000"
+
+  main-server:
+    build: ./main-server
+    container_name: main-server
+    restart: always
+    ports:
+      - "3000:3000"
+
+  admin-client:
+    build: ./admin-client
+    container_name: admin-client
+    restart: always
+    ports:
+      - "3001:3000"  # map container’s 3000 to host 3001
+
+  user-client:
+    build: ./user-client
+    container_name: user-client
+    restart: always
+    ports:
+      - "3002:3000"  # map container’s 3000 to host 3002
