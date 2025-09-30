@@ -485,6 +485,134 @@ class FHIRTerminologyService {
     }
   }
 
+  async expandValueSet(req, res) {
+    try {
+        const { url, filter, count = 20 } = req.query;
+        
+        if (!url) {
+            return res.status(400).json({ 
+                error: 'Missing required parameter: url' 
+            });
+        }
+
+        const results = [];
+        const searchTerm = filter ? filter.toLowerCase() : '';
+        
+        // Expand NAMASTE ValueSet
+        if (url.includes('namaste')) {
+            for (const [code, concept] of this.namasteCodes) {
+                if (!filter || 
+                    concept.display.toLowerCase().includes(searchTerm) ||
+                    concept.definition?.toLowerCase().includes(searchTerm)) {
+                    results.push({
+                        system: 'http://terminology.ayush.gov.in/CodeSystem/namaste',
+                        code: code,
+                        display: concept.display,
+                        definition: concept.definition
+                    });
+                }
+            }
+        }
+        
+        // Expand ICD-11 TM2 ValueSet
+        if (url.includes('icd') || url.includes('traditional-medicine')) {
+            for (const [code, concept] of this.icd11TM2Codes) {
+                if (!filter || concept.display.toLowerCase().includes(searchTerm)) {
+                    results.push({
+                        system: 'http://id.who.int/icd/release/11/2023-01/mms/traditional-medicine',
+                        code: code,
+                        display: concept.display,
+                        definition: concept.definition
+                    });
+                }
+            }
+        }
+        
+        res.json({
+            resourceType: 'ValueSet',
+            id: uuidv4(),
+            url: url,
+            expansion: {
+                identifier: uuidv4(),
+                timestamp: new Date().toISOString(),
+                total: results.length,
+                contains: results.slice(0, parseInt(count))
+            }
+        });
+        
+    } catch (error) {
+        res.status(500).json({ 
+            error: 'ValueSet expansion failed', 
+            details: error.message 
+        });
+    }
+}
+
+async getConceptMap(req, res) {
+    try {
+        const { id } = req.params;
+        const conceptMap = this.conceptMaps.get(id);
+        
+        if (!conceptMap) {
+            return res.status(404).json({ 
+                error: 'ConceptMap not found',
+                id: id 
+            });
+        }
+        
+        res.json(conceptMap);
+        
+    } catch (error) {
+        res.status(500).json({ 
+            error: 'Failed to retrieve ConceptMap', 
+            details: error.message 
+        });
+    }
+}
+
+async lookupConcept(req, res) {
+    try {
+        const { system, code } = req.body;
+        
+        if (!system || !code) {
+            return res.status(400).json({ 
+                error: 'Missing required parameters: system and code' 
+            });
+        }
+        
+        let concept = null;
+        
+        if (system === 'http://terminology.ayush.gov.in/CodeSystem/namaste') {
+            concept = this.namasteCodes.get(code);
+        } else if (system.includes('traditional-medicine')) {
+            concept = this.icd11TM2Codes.get(code);
+        }
+        
+        if (concept) {
+            res.json({
+                resourceType: 'Parameters',
+                parameter: [
+                    { name: 'name', valueString: concept.display },
+                    { name: 'display', valueString: concept.display },
+                    { name: 'definition', valueString: concept.definition || '' }
+                ]
+            });
+        } else {
+            res.status(404).json({ 
+                error: 'Concept not found',
+                system: system,
+                code: code 
+            });
+        }
+        
+    } catch (error) {
+        res.status(500).json({ 
+            error: 'Lookup failed', 
+            details: error.message 
+        });
+    }
+}
+
   // Initialize NAMASTE data from uploaded CSV/Excel
   async initializeNAMASTEData(filePath) {
     // This would process your Excel file
